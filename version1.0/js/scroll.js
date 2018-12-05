@@ -4,7 +4,7 @@ window.onload = function(){
 	var speed = -1;//初始化速度
 
 	oUl.innerHTML += oUl.innerHTML;//图片内容*2-----参考图（2）
-	var oLi= document.getElementsByTagName('li');
+	var oLi= oUl.getElementsByTagName('li');
 	oUl.style.width = oLi.length*200+'px';//设置ul的宽度使图片可以放下
 
 	// var oleftBtn = document.getElementById('leftBtn');
