@@ -1,0 +1,20 @@
+body{
+	font-size: 12px;
+}
+
+.ny-left{
+ width:230px;
+  float:left; 
+  overflow:hidden; padding-bottom:30px;margin-top:20px;
+}
+.ny-left-title{width:230px; height:35px;font-size: 18px;font-family:\5FAE\8F6F\96C5\9ED1;color: #FFFFFF; background: url(../images/ny-left-title.jpg) no-repeat;line-height:35px;text-align:center;}
+.ny-left-content{ width:230px; overflow:hidden;padding-bottom:20px; padding-top:10px;min-height:300px; _height:300px; float:left;}
+.ny-left-bottom{ width:230px; height:17px;overflow:hidden;}
+.ny-left-content li{ font-weight:bolder; border-bottom:1px dashed #999; height:38px; line-height:38px;padding-left:35px; background:url(../images/icon.jpg) no-repeat 0px center; font-size:12px;}
+.ny-left-content ul .cur a{ color:#B11818;}
+
+.ny-right{ width:730px; float:right;margin-top:20px;margin-bottom:20px;}
+.ny-right-title{ width:710px;height:39px; line-height:39px; background:#534C4C; overflow:hidden;padding-left: 20px; color:#fff;}
+.ny-right-title span{ color:#333; padding:0 5px;}
+.ny-right-title a{color: #FFF;}
+.ny-right-content{ min-height:450px; _height:450px; float:left; width:688px; padding:20px;border:1px solid #E2E1E1;}
