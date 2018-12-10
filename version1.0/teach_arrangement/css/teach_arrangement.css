@@ -1,0 +1,92 @@
+@charset "utf-8";
+/* CSS Document */
+/*内页*/
+.ny-left{ width:230px; float:left; overflow:hidden; padding-bottom:30px;margin-top:20px;}
+.ny-left-title{width:230px; height:35px;font-size: 18px;font-family:\5FAE\8F6F\96C5\9ED1;color: #FFFFFF; background: url(../images/ny-left-title.jpg) no-repeat;line-height:35px;text-align:center;}
+.ny-left-content{ width:230px; overflow:hidden;padding-bottom:20px; padding-top:10px;min-height:300px; _height:300px; float:left;}
+.ny-left-bottom{ width:230px; height:17px;overflow:hidden;}
+.ny-left-content li{ font-weight:bolder; border-bottom:1px dashed #999; height:38px; line-height:38px;padding-left:35px; background:url(../images/icon.jpg) no-repeat 0px center; font-size:12px;}
+.ny-left-content ul .cur a{ color:#B11818;}
+.ny-right{ width:730px; float:right;margin-top:20px;margin-bottom:20px;}
+.ny-right-title{ width:710px;height:39px; line-height:39px; background:#534C4C; overflow:hidden;padding-left: 20px; color:#fff;}
+.ny-right-title span{ color:#333; padding:0 5px;}
+.ny-right-title a{color: #FFF;}
+.ny-right-content{ min-height:450px; _height:450px; float:left; width:688px; padding:20px;border:1px solid #E2E1E1;}
+.right-main-title{text-align:center;font-size:20px;line-height: 32px;}
+.right-sub-title{text-align:center;color:#666;}
+.right-main-show{margin-top:15px;margin-bottom:15px;}
+.right-main-show p{padding-bottom:10px;}
+/*内页右边内容区 - 文字列表*/
+
+.container {
+    width: 980px;
+    margin: 0 auto;
+}
+.content {
+    width: 980px;
+}
+
+/*教学视频文字列表01*/
+.news-list01 li{ height:35px; line-height:35px; border-bottom:1px dashed #D7D7D7; padding-left:13px; background:url(../images/news-list01-icon.jpg) no-repeat left center;}
+.news-list01 li a{ float:left;}
+.news-list01 li span{ float:right; color:#999;}
+
+/*教学课件文字列表02*/
+.news-list02 li{ height:35px; background:#F6F6F6;margin-bottom:15px;float:left; width:100%; position:relative;}
+.news-list02 li a{ line-height:35px;  display:block;background: #999;border-left: 4px solid #534C4C; padding-left:16px;color: #fff; padding-right:15px;}
+.news-list02 li span{color:#fff; position:absolute; top:0px; right:15px; display:block; line-height:35px;}
+.news-list02 li a:hover{ text-decoration:none; color:#B11918;}
+
+.next-page li{margin-bottom: 5px;}
+.next-page li span{color: #B11918;}
+.blue {
+
+    color: #04AEDA;
+
+}
+
+
+
+/*CSS 翻页*/
+
+.manu {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 3px; PADDING-BOTTOM: 3px; MARGIN: 3px; PADDING-TOP: 3px; TEXT-ALIGN: center
+}
+.manu A {
+	border: #D6D6D6 1px solid; padding: 2px 5px; MARGIN: 2px; COLOR: #DC7901; TEXT-DECORATION: none
+}
+.manu A:hover {
+	BORDER-RIGHT: #999 1px solid; BORDER-TOP: #999 1px solid; BORDER-LEFT: #999 1px solid; COLOR: #666; BORDER-BOTTOM: #999 1px solid
+}
+.manu A:active {
+	BORDER-RIGHT: #999 1px solid; BORDER-TOP: #999 1px solid; BORDER-LEFT: #999 1px solid; COLOR: #666; BORDER-BOTTOM: #999 1px solid
+}
+.manu .current {
+	BORDER-RIGHT: #DC7901 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #DC7901 1px solid; PADDING-LEFT: 5px; FONT-WEIGHT: bold; PADDING-BOTTOM: 2px; MARGIN: 2px; BORDER-LEFT: #DC7901 1px solid; COLOR: #fff; PADDING-TOP: 2px; BORDER-BOTTOM: #DC7901 1px solid; BACKGROUND-COLOR: #DC7901
+}
+.manu .disabled {
+	BORDER: #D6D6D6 1px solid; PADDING-RIGHT: 5px;  PADDING-LEFT: 5px; PADDING-BOTTOM: 2px; MARGIN: 2px;  COLOR: #ddd; PADDING-TOP: 2px; 
+}
+
+
+/*CSS 翻页*/
+
+.manu2 {
+	PADDING-RIGHT: 3px; PADDING-LEFT: 3px; PADDING-BOTTOM: 3px; MARGIN: 3px; margin-top:20px; PADDING-TOP: 3px; TEXT-ALIGN: center
+}
+.manu2 A {
+	border: #D6D6D6 1px solid; padding: 2px 5px; MARGIN: 2px; COLOR: #DC7901; TEXT-DECORATION: none
+}
+.manu2 A:hover {
+	BORDER-RIGHT: #999 1px solid; BORDER-TOP: #999 1px solid; BORDER-LEFT: #999 1px solid; COLOR: #666; BORDER-BOTTOM: #999 1px solid
+}
+.manu2 A:active {
+	BORDER-RIGHT: #999 1px solid; BORDER-TOP: #999 1px solid; BORDER-LEFT: #999 1px solid; COLOR: #666; BORDER-BOTTOM: #999 1px solid
+}
+.manu2 .current {
+	BORDER-RIGHT: #DC7901 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #DC7901 1px solid; PADDING-LEFT: 5px; FONT-WEIGHT: bold; PADDING-BOTTOM: 2px; MARGIN: 2px; BORDER-LEFT: #DC7901 1px solid; COLOR: #fff; PADDING-TOP: 2px; BORDER-BOTTOM: #DC7901 1px solid; BACKGROUND-COLOR: #DC7901
+}
+.manu2 .disabled {
+	BORDER: #D6D6D6 1px solid; PADDING-RIGHT: 5px;  PADDING-LEFT: 5px; PADDING-BOTTOM: 2px; MARGIN: 2px;  COLOR: #ddd; PADDING-TOP: 2px; 
+}
+
